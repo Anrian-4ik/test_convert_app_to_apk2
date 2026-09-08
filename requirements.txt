@@ -1,0 +1,2 @@
+"kivy[base]" kivy_examples --no-binary kivy
+"kivy[base]" kivy_examples
