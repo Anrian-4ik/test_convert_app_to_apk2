@@ -33,7 +33,7 @@ jobs:
             -keypass "${{ secrets.KEY_PASSWORD }}" \
             "$APK_PATH" "${{ secrets.KEY_ALIAS }}"
 
-      # Step 4: Rename the signed APK
+      # Step 4: Ren2ame the signed APK
       - name: Rename the signed APK
         run: |
           APK_PATH=$(find ./bin -name "*-release-unsigned.apk" | head -n 1)
